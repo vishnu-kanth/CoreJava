@@ -1,6 +1,6 @@
 package oops;
 
-public class ObjectProgramms {
+public class NonStatic {
 	static class Box{
 		double length;
 		double breadth;

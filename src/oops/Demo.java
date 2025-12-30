@@ -1,14 +1,14 @@
 package oops;
 
 public class Demo {
-	String name;
-	Demo(String name)
 	{
-		this.name = name;
+		System.out.println("Hii.. I am from non-static block");
+	}
+	Demo(){
+		System.out.println("Hii.. I am from constructor");
 	}
 	public static void main(String[] args) {
-		Demo d = new Demo("Vishnu Kanth");
-		System.out.println(d.name);
+		Demo d1 = new Demo();
 	}
 
 }

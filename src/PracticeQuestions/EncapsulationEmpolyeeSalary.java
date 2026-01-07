@@ -1,6 +1,6 @@
 package PracticeQuestions;
 
-public class EmpolyeeSalary {
+public class EncapsulationEmpolyeeSalary {
 	private double salary;
 //	EmpolyeeSalary(){
 //		
@@ -23,7 +23,7 @@ public class EmpolyeeSalary {
 	}
 	
 	public static void main(String args[]) {
-		EmpolyeeSalary e = new EmpolyeeSalary();
+		EncapsulationEmpolyeeSalary e = new EncapsulationEmpolyeeSalary();
 		e.setSalary(300000.0);
 		System.out.println(e.getSalary());
 	}

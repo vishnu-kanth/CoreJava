@@ -34,5 +34,4 @@ public class StringMethod {
 		System.out.println(s3.substring(2,4));
 		
 	}
-
 }

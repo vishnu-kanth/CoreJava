@@ -1,7 +1,5 @@
 package ObjectClass;
 
-import ObjectClass.Hashcode.Student;
-
 public class Hashcode {
 	
 	static class Student{
@@ -24,7 +22,7 @@ public class Hashcode {
 
 		return this.name.hashCode()+age;
 	}
-	}
+}
 	public static void main(String[] args) {
 		Student s1 = new Student("Vishnu",22);
 		Student s2 = new Student("Vishnu",22);
@@ -33,5 +31,6 @@ public class Hashcode {
 		System.out.println(s1.hashCode());
 		System.out.println(s2.hashCode());
 		System.out.println(s1.hashCode()==s2.hashCode());
+		System.out.println(s1.getClass());
 	}
 }

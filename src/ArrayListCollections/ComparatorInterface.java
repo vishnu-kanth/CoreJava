@@ -44,12 +44,12 @@ public class ComparatorInterface {
 
         // Using Comparable
         Collections.sort(l1);
-        System.out.print("Sorted using Comparable (Ascending):  ");
+        System.out.println("------- Sorted using Comparable (Ascending)  ------- ");
         System.out.println(l1);
 
         // Using Comparator
         Collections.sort(l1, new PriceDescendingComparator());
-        System.out.print("Sorted using Comparator (Descending):  ");
+        System.out.println("------- Sorted using Comparator (Descending) ------- ");
         System.out.println(l1);
     }
 }

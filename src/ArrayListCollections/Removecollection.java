@@ -1,4 +1,4 @@
-package CollectionsFramework;
+package ArrayListCollections;
 import java.util.*;
 public class Removecollection {
 	public static void main(String[] args) {

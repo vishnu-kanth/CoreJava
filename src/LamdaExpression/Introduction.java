@@ -15,9 +15,10 @@ public class Introduction {
 		};
 		a.test();
 
-		B b = (x, y) -> {
+		B b = (x, y) ->  {
 			return x + y;
 		};
 		System.out.println(b.marks(2, 4));
 	}
 }
+

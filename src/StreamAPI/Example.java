@@ -3,6 +3,8 @@ package StreamAPI;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.stream.Collectors;
+
 
 public class Example {
 	public static void main(String[] args) {
@@ -39,6 +41,17 @@ public class Example {
 		.filter(n->n%2==0)
 		.forEach(System.out::println);
 		
+		//map
+		List<Integer> doubled = num.stream()
+		.map(n->n*2)
+		.collect(Collectors.toList());
+		System.out.println(doubled);
+		
+		List<String> namesUpperList = names.stream()
+				.map(s->s.toUpperCase())
+				.collect(Collectors.toList());
+		namesUpperList.stream().forEach(System.out::println);
+		System.out.println(namesUpperList);
 		
 
 	}

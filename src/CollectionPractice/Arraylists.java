@@ -102,6 +102,5 @@ public class Arraylists {
 	
 	System.out.println(Contacts);
 	
-	
 	}
 }
